@@ -1,0 +1,26 @@
+#include <stdio.h>
+main(){
+// Create variables
+int mynum=10; // whole number
+float myfloatnum=22.2; //decimal number
+char mycharnum='c'; //single alphabet store
+//print variable
+printf("%d", mynum);
+printf("\n%f", myfloatnum);
+printf("\n%c", mycharnum);
+}
+
+/*To combine both text and a variable, separate them with a comma inside the printf() function:
+Example*/
+int myNum = 15;
+printf("My favorite number is: %d", myNum);
+ //in differ ways
+int number =4;
+char value = 'c';
+printf("my favorite number is %d and lucky letter is %c",number,value);
+
+//Print Values Without Variables
+
+printf("my number is %d",8);
+printf("\nmy percenyage is %f",'S');
+

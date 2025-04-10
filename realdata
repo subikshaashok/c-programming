@@ -1,0 +1,38 @@
+/*The general rules for naming variables are:
+
+Names can contain letters, digits and underscores
+Names must begin with a letter or an underscore (_)
+Names are case-sensitive (myVar and myvar are different variables)
+Names cannot contain whitespaces or special characters like !, #, %, etc.
+Reserved words (such as int) cannot be used as names*/
+
+// student data
+#include <stdio.h>
+int main() {
+int myID=12;
+int rollno=22;
+float fees=7.50;
+char grade='A';
+printf("%d\n", myID,rollno);
+printf("%f\n", fees);
+printf("%c\n", grade);
+return 0;
+}
+
+//putput:12,22,7.50,A
+
+//calculation
+#include <stdio.h>
+#include <math.h>
+int main() {
+int length=50;
+int width=22;
+int area;
+area=length*width;
+printf("%d\n", length);
+printf("%d\n", width);
+printf("%d\n", area);
+}  
+// o/p:50,22,1100
+
+

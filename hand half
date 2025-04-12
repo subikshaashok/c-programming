@@ -1,0 +1,32 @@
+//half hand if else knows as ternary operators , to write a instructio in single line
+//variable = (condition) ? expressionTrue : expressionFalse;(syntax)
+//example
+
+#include <stdio.h>
+int main(){
+int time = 22;
+(time < 10) ? printf("gm") : printf("gn"); //? life if and : else condition
+}
+// real time example
+#include <stdio.h>
+int main(){
+int password = 1001;
+(password == 1001) ? printf("Unlocked") : printf("incorrect password");
+}
+// output unlocked
+
+
+//example for else if
+#include <stdio.h>
+int main(){
+int myAge = 25;
+int votingAge = 18;
+
+if (myAge >= votingAge) {
+  printf("Old enough to vote!");
+} else {
+  printf("Not old enough to vote.");
+}
+}
+
+

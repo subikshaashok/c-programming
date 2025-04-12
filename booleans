@@ -31,3 +31,18 @@ int main() {
   printf("%d",x == y); // for not equal to means !=
   return 0;
 }   
+
+//real time example
+#include <stdio.h>
+#include <stdbool.h>
+int main(){
+int x=10;
+int y=3;
+if (x<y){
+printf("greater than");
+}
+else{
+printf("less than");
+}
+}
+
